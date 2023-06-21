@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Gallary">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:forceDefaultNavigationOnClickListener="true"
+        app:hideNavigationIcon="false"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:background="@color/yellow"
+        android:contextClickable="true"
+        android:src="@drawable/luffy2" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/yellow"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/luffy_is_eating"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:background="@color/yellow"
+        android:contextClickable="true"
+        android:src="@drawable/luffy" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/yellow"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/little_luffy"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:background="@color/yellow"
+        android:contextClickable="true"
+        android:src="@drawable/manga1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/yellow"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/manga_chapter"
+        android:textAlignment="center" />
+
+
+</LinearLayout>

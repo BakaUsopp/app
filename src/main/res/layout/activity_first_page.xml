@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage"
+    android:background="@drawable/blackbg"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:linksClickable="true"
+        android:minHeight="48dp"
+        android:text="@string/login"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="287dp"
+        android:layout_height="363dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/luffy" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="50dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="74dp"
+        android:backgroundTint="@color/yellow"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_medium_2"
+        android:text="@string/sign_up_with_email"
+        android:outlineAmbientShadowColor="@color/cardview_light_background"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
